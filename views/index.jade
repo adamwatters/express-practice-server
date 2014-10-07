@@ -1,0 +1,8 @@
+html
+  head
+    title!= title
+  body
+    h2!= message
+    form(action="/posty", method="post")
+      input(name="myInput", value=inputVal)
+      input(type="submit")
